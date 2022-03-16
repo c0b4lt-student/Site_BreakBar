@@ -1,13 +1,14 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Bar le BreaK - Evenements</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossorigin="anonymous"/>
-    <link rel="stylesheet" href="../Styles/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Bar le BreaK - Evenements</title>
 </head>
 <body class="container-fluid m-md-0 p-md-0">
 <div class="row">
@@ -40,69 +41,119 @@
             </defs>
         </svg>
     </header>
-    <div class="col-md-4"></div>
-    <nav class="d-none d-md-flex flex-column col-md-4">
-        <img class="logo_break m-md-2 w-50 align-self-center" src="pics/LogoBreak.png" alt="Logo du breakBar"/>
-        <div class="menu m-md-2">
+    <nav class="d-none d-md-flex flex-column col-md-3 sticky-md-top vh-100 bg-dark bg-opacity-50">
+        <img class="logo_break m-md-2 w-50 align-self-center" src="../pics/LogoBreak.png" alt="Logo du breakBar"/>
+        <div class="menu m-md-2 w-100 align-self-center">
             <ul class="list-group">
-                <li><a href="#" class="list-group-item">Accueil</a></li>
-                <li><a href="#" class="list-group-item active">Evenements</a></li>
+                <li><a href="#" class="list-group-item text-center text_xtreem_fat">Accueil</a></li>
+                <li><a href="#" class="list-group-item text-center text_xtreem_fat active">Evenements</a></li>
             </ul>
         </div>
     </nav>
-    <main class="col-md-8">
-        <article class="card text-center m-2 bg-dark text-white">
-            <h2 class="card-header card-title m-auto text_xtreem_fat">Nous découvrir</h2>
-            <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet porttitor ligula. Mauris iaculis sit amet massa ut suscipit. Morbi id risus non erat sollicitudin porttitor id vitae dui. Praesent vestibulum velit sit amet ipsum finibus pharetra. Proin vehicula aliquet justo ut consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque hendrerit vitae nisi varius lobortis. Nam nisi libero, elementum ac volutpat quis, lobortis nec ligula. Cras turpis mi, mollis id ligula vitae, aliquet tristique purus. Maecenas ac elit magna. Donec dignissim libero purus, nec gravida nibh mollis a. Pellentesque eget risus quis d</p>
-                <a href="event.html" class="btn btn-primary">Voir Events</a>
-            </div>
-        </article>
-        <aside>
-            <section class="card text-center m-2 bg-opacity-50 bg-dark">
-                <h2 class="card-header text_xtreem_fat">Infos pratiques</h2>
-                <div class="card-body">
-                    <div class="card-text d-flex flex-column">
-                        <ul class="w-75 align-self-center">
-                            <li>Horraires : mardi-samedi 20h-1h00</li>
-                            <li>Telephone : 0612345678</li>
-                            <li>Addresse : 12 avenue marx dormoy</li>
-                            <li>Depuis la station maison de la culture</li>
+    <main class="col-md-9"> <!-- contenu principal -->
+        <section> <!-- Bloc a venir -->
+            <h2 class="text-center text_xtreem_fat">A venir</h2>
+            <article class="card"> <!-- Premier evenement -->
+              <div class="d-md-flex">
+                <img class="event_pic card-img"
+                     src="../pics/event1_pic.jpg"
+                     alt="Programme du concert du 18 mars 2022 au bar le break"/>
+                <div class="event_body card-body">
+                    <p class="card-text text-center">Vendredi 18 mars 2022</p>
+                    <div class="d-flex">
+                        <ul class="w-50">
+                            <li>Stefan : Dub</li>
+                            <li>Slim : Dub</li>
+                            <li>Matt ASF : Dub</li>
                         </ul>
-                        <img class="card-img w-75 align-self-center"
-                             src="/pics/BreakBarMaps.gif"
-                             alt="Une maps qui indique la position du bar le BreaK depuis maison de la culture">
+                        <ul class="w-50">
+                            <li>Dj raool : Dub</li>
+                            <li>Z : Dub</li>
+                            <li>MirkaDub : Dub</li>
+                        </ul>
                     </div>
-                    <a href="event.html" class="btn btn-primary m-2">Ouvrir dans google maps</a>
                 </div>
-            </section>
-        </aside>
+                <a href="#" class="btn btn-primary m-2 w-50 align-self-center">Voir sur soundcloud</a>
+              </div>
+            </article>
+            <article class="card"> <!-- Deuxieme evenement -->
+                <div class="d-md-flex">
+                    <img class="event_pic card-img"
+                     src="../pics/event2_pic.jpg"
+                     alt="Programme du concert du 25 mars 2022 au bar le break"/>
+                    <div class="event_body card-body">
+                        <p class="card-text text-center">Vendredi 25 mars 2022</p>
+                        <ul class="text-center">
+                            <li>Stefan : Dub</li>
+                            <li>6KDA : Techno</li>
+                            <li>Lea : Indus</li>
+                            <li>Bjorn Mickelsen : Hardcore</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary m-2 w-50 align-self-center">Voir sur soundcloud</a>
+                </div>
+            </article>
+            <article class="card"> <!-- Troisième evenement -->
+                <div class="d-md-flex">
+                    <img class="event_pic card-img-top"
+                         src="../pics/event3_pic.jpg"
+                         alt="Programme du concert du 26 mars 2022 au bar le break"/>
+                    <div class="event_body card-body">
+                        <p class="card-text text-center">Samedi 26 mars 2022</p>
+                        <ul class="text-center">
+                            <li>Frode : Acid/Techno</li>
+                            <li>Razor Flex : Dub</li>
+                            <li>Jojo debilotrope : Acid</li>
+                            <li>Strange : Acid/Tribe</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary m-2 w-50 align-self-center">Voir sur soundcloud</a>
+                </div>
+            </article>
+        </section>
+        <section> <!-- Bloc passé -->
+            <h2 class="text-center text_xtreem_fat">Passé</h2>
+            <article class="card m-1"> <!-- Premier evenement passé-->
+                <div class="d-md-flex">
+                    <img class="event_pic card-img"
+                         src="../pics/passed_event1_pic.jpg"
+                         alt="Programme du concert du 11 mars 2022 au bar le break"/>
+                    <div class="event_body card-body">
+                        <p class="card-text text-center">Vendredi 11 mars 2022</p>
+                        <ul class="text-center">
+                            <li>ABS sound system : Dub</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary m-2 w-50 align-self-center">Voir sur soundcloud</a>
+                </div>
+            </article>
+        </section>
+        <footer class="d-flex justify-content-around py-1 bg-opacity-25 bg-dark">
+            <svg width="54" height="63" viewBox="0 0 54 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_25_22)">
+                    <path d="M48.2143 3.9375H5.78571C4.25125 3.9375 2.77963 4.55976 1.6946 5.6674C0.609565 6.77504 0 8.27732 0 9.84375L0 53.1562C0 54.7227 0.609565 56.225 1.6946 57.3326C2.77963 58.4402 4.25125 59.0625 5.78571 59.0625H22.3292V40.3212H14.7355V31.5H22.3292V24.7767C22.3292 17.1294 26.7891 12.9052 33.6198 12.9052C36.8912 12.9052 40.312 13.5007 40.312 13.5007V21.0066H36.5428C32.8291 21.0066 31.6708 23.3592 31.6708 25.7722V31.5H39.9612L38.6353 40.3212H31.6708V59.0625H48.2143C49.7488 59.0625 51.2204 58.4402 52.3054 57.3326C53.3904 56.225 54 54.7227 54 53.1562V9.84375C54 8.27732 53.3904 6.77504 52.3054 5.6674C51.2204 4.55976 49.7488 3.9375 48.2143 3.9375Z" fill="black"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_25_22">
+                        <rect width="54" height="63" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg width="54" height="63" viewBox="0 0 54 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_25_24)">
+                    <path d="M27.0121 17.3496C19.346 17.3496 13.1625 23.6619 13.1625 31.4877C13.1625 39.3135 19.346 45.6258 27.0121 45.6258C34.6781 45.6258 40.8616 39.3135 40.8616 31.4877C40.8616 23.6619 34.6781 17.3496 27.0121 17.3496ZM27.0121 40.6793C22.058 40.6793 18.008 36.5572 18.008 31.4877C18.008 26.4182 22.046 22.2961 27.0121 22.2961C31.9781 22.2961 36.0161 26.4182 36.0161 31.4877C36.0161 36.5572 31.9661 40.6793 27.0121 40.6793ZM44.6585 16.7713C44.6585 18.6047 43.2121 20.0689 41.4281 20.0689C39.6321 20.0689 38.1978 18.5924 38.1978 16.7713C38.1978 14.9502 39.6442 13.4736 41.4281 13.4736C43.2121 13.4736 44.6585 14.9502 44.6585 16.7713ZM53.8313 20.1182C53.6263 15.7008 52.6379 11.7879 49.4679 8.56405C46.3098 5.34022 42.4768 4.33124 38.1496 4.10975C33.6897 3.85135 20.3223 3.85135 15.8625 4.10975C11.5473 4.31893 7.71429 5.32792 4.5442 8.55175C1.37411 11.7756 0.397767 15.6885 0.180803 20.1058C-0.0723221 24.6586 -0.0723221 38.3045 0.180803 42.8572C0.385714 47.2746 1.37411 51.1875 4.5442 54.4113C7.71429 57.6352 11.5353 58.6441 15.8625 58.8656C20.3223 59.124 33.6897 59.124 38.1496 58.8656C42.4768 58.6564 46.3098 57.6475 49.4679 54.4113C52.6259 51.1875 53.6143 47.2746 53.8313 42.8572C54.0844 38.3045 54.0844 24.6709 53.8313 20.1182ZM48.0696 47.7422C47.1295 50.1539 45.3094 52.0119 42.9348 52.984C39.379 54.4236 30.9415 54.0914 27.0121 54.0914C23.0826 54.0914 14.633 54.4113 11.0893 52.984C8.72678 52.0242 6.9067 50.1662 5.95446 47.7422C4.5442 44.1123 4.86964 35.499 4.86964 31.4877C4.86964 27.4764 4.55625 18.8508 5.95446 15.2332C6.89464 12.8215 8.71473 10.9635 11.0893 9.99139C14.6451 8.55175 23.0826 8.88397 27.0121 8.88397C30.9415 8.88397 39.3911 8.56405 42.9348 9.99139C45.2973 10.9512 47.1174 12.8092 48.0696 15.2332C49.4799 18.8631 49.1545 27.4764 49.1545 31.4877C49.1545 35.499 49.4799 44.1246 48.0696 47.7422Z" fill="black"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_25_24">
+                        <rect width="54" height="63" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M48.4492 16.2976C48.4835 16.7862 48.4835 17.2748 48.4835 17.7634C48.4835 32.6649 37.3478 49.835 16.9949 49.835C10.7246 49.835 4.89976 47.9853 0 44.7748C0.890894 44.8794 1.74741 44.9144 2.67258 44.9144C7.84635 44.9144 12.6091 43.1346 16.4124 40.0984C11.5469 39.9937 7.46951 36.7481 6.06466 32.2811C6.75 32.3857 7.43523 32.4556 8.15484 32.4556C9.14847 32.4556 10.1422 32.3159 11.0673 32.0717C5.99621 31.0247 2.1928 26.488 2.1928 21.0089V20.8694C3.66609 21.7069 5.37943 22.2304 7.19529 22.3001C4.21432 20.276 2.26136 16.8211 2.26136 12.9124C2.26136 10.8185 2.80948 8.89913 3.76893 7.22399C9.21691 14.0641 17.406 18.531 26.5887 19.0197C26.4174 18.1821 26.3146 17.3097 26.3146 16.4372C26.3146 10.2253 31.2486 5.16504 37.3818 5.16504C40.5683 5.16504 43.4465 6.52607 45.4681 8.72468C47.9693 8.23612 50.3678 7.29382 52.4922 6.00261C51.6698 8.62005 49.9224 10.8187 47.6267 12.2145C49.8539 11.9703 52.0125 11.342 53.9998 10.4696C52.4924 12.703 50.6078 14.6922 48.4492 16.2976Z" fill="black"/>
+            </svg>
+        </footer>
     </main>
-    <footer class="d-flex justify-content-around py-1 bg-opacity-25 bg-dark">
-        <svg width="54" height="63" viewBox="0 0 54 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_25_22)">
-                <path d="M48.2143 3.9375H5.78571C4.25125 3.9375 2.77963 4.55976 1.6946 5.6674C0.609565 6.77504 0 8.27732 0 9.84375L0 53.1562C0 54.7227 0.609565 56.225 1.6946 57.3326C2.77963 58.4402 4.25125 59.0625 5.78571 59.0625H22.3292V40.3212H14.7355V31.5H22.3292V24.7767C22.3292 17.1294 26.7891 12.9052 33.6198 12.9052C36.8912 12.9052 40.312 13.5007 40.312 13.5007V21.0066H36.5428C32.8291 21.0066 31.6708 23.3592 31.6708 25.7722V31.5H39.9612L38.6353 40.3212H31.6708V59.0625H48.2143C49.7488 59.0625 51.2204 58.4402 52.3054 57.3326C53.3904 56.225 54 54.7227 54 53.1562V9.84375C54 8.27732 53.3904 6.77504 52.3054 5.6674C51.2204 4.55976 49.7488 3.9375 48.2143 3.9375Z" fill="black"/>
-            </g>
-            <defs>
-                <clipPath id="clip0_25_22">
-                    <rect width="54" height="63" fill="white"/>
-                </clipPath>
-            </defs>
-        </svg>
-        <svg width="54" height="63" viewBox="0 0 54 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_25_24)">
-                <path d="M27.0121 17.3496C19.346 17.3496 13.1625 23.6619 13.1625 31.4877C13.1625 39.3135 19.346 45.6258 27.0121 45.6258C34.6781 45.6258 40.8616 39.3135 40.8616 31.4877C40.8616 23.6619 34.6781 17.3496 27.0121 17.3496ZM27.0121 40.6793C22.058 40.6793 18.008 36.5572 18.008 31.4877C18.008 26.4182 22.046 22.2961 27.0121 22.2961C31.9781 22.2961 36.0161 26.4182 36.0161 31.4877C36.0161 36.5572 31.9661 40.6793 27.0121 40.6793ZM44.6585 16.7713C44.6585 18.6047 43.2121 20.0689 41.4281 20.0689C39.6321 20.0689 38.1978 18.5924 38.1978 16.7713C38.1978 14.9502 39.6442 13.4736 41.4281 13.4736C43.2121 13.4736 44.6585 14.9502 44.6585 16.7713ZM53.8313 20.1182C53.6263 15.7008 52.6379 11.7879 49.4679 8.56405C46.3098 5.34022 42.4768 4.33124 38.1496 4.10975C33.6897 3.85135 20.3223 3.85135 15.8625 4.10975C11.5473 4.31893 7.71429 5.32792 4.5442 8.55175C1.37411 11.7756 0.397767 15.6885 0.180803 20.1058C-0.0723221 24.6586 -0.0723221 38.3045 0.180803 42.8572C0.385714 47.2746 1.37411 51.1875 4.5442 54.4113C7.71429 57.6352 11.5353 58.6441 15.8625 58.8656C20.3223 59.124 33.6897 59.124 38.1496 58.8656C42.4768 58.6564 46.3098 57.6475 49.4679 54.4113C52.6259 51.1875 53.6143 47.2746 53.8313 42.8572C54.0844 38.3045 54.0844 24.6709 53.8313 20.1182ZM48.0696 47.7422C47.1295 50.1539 45.3094 52.0119 42.9348 52.984C39.379 54.4236 30.9415 54.0914 27.0121 54.0914C23.0826 54.0914 14.633 54.4113 11.0893 52.984C8.72678 52.0242 6.9067 50.1662 5.95446 47.7422C4.5442 44.1123 4.86964 35.499 4.86964 31.4877C4.86964 27.4764 4.55625 18.8508 5.95446 15.2332C6.89464 12.8215 8.71473 10.9635 11.0893 9.99139C14.6451 8.55175 23.0826 8.88397 27.0121 8.88397C30.9415 8.88397 39.3911 8.56405 42.9348 9.99139C45.2973 10.9512 47.1174 12.8092 48.0696 15.2332C49.4799 18.8631 49.1545 27.4764 49.1545 31.4877C49.1545 35.499 49.4799 44.1246 48.0696 47.7422Z" fill="black"/>
-            </g>
-            <defs>
-                <clipPath id="clip0_25_24">
-                    <rect width="54" height="63" fill="white"/>
-                </clipPath>
-            </defs>
-        </svg>
-        <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M48.4492 16.2976C48.4835 16.7862 48.4835 17.2748 48.4835 17.7634C48.4835 32.6649 37.3478 49.835 16.9949 49.835C10.7246 49.835 4.89976 47.9853 0 44.7748C0.890894 44.8794 1.74741 44.9144 2.67258 44.9144C7.84635 44.9144 12.6091 43.1346 16.4124 40.0984C11.5469 39.9937 7.46951 36.7481 6.06466 32.2811C6.75 32.3857 7.43523 32.4556 8.15484 32.4556C9.14847 32.4556 10.1422 32.3159 11.0673 32.0717C5.99621 31.0247 2.1928 26.488 2.1928 21.0089V20.8694C3.66609 21.7069 5.37943 22.2304 7.19529 22.3001C4.21432 20.276 2.26136 16.8211 2.26136 12.9124C2.26136 10.8185 2.80948 8.89913 3.76893 7.22399C9.21691 14.0641 17.406 18.531 26.5887 19.0197C26.4174 18.1821 26.3146 17.3097 26.3146 16.4372C26.3146 10.2253 31.2486 5.16504 37.3818 5.16504C40.5683 5.16504 43.4465 6.52607 45.4681 8.72468C47.9693 8.23612 50.3678 7.29382 52.4922 6.00261C51.6698 8.62005 49.9224 10.8187 47.6267 12.2145C49.8539 11.9703 52.0125 11.342 53.9998 10.4696C52.4924 12.703 50.6078 14.6922 48.4492 16.2976Z" fill="black"/>
-        </svg>
-    </footer>
 </div>
 </body>
 </html>

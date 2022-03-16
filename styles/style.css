@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Xtreem Fat Demo'; /*a name to be used later*/
+    src: url('../fonts/XtreemFat_Demo.ttf'); /*URL to font*/
+}
+
+.text_xtreem_fat {
+    font-family: "Xtreem Fat Demo", serif;
+    padding: 15px;
+}
+ .menu {
+     font-size: 38px;
+ }
+
+ @media screen and (min-width: 768px){
+     .event_pic {
+         max-width: 35%;
+         max-height: 25vh;
+     }
+     .event_body {
+         width: 100%;
+     }
+ }

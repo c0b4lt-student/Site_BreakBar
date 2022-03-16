@@ -7,7 +7,7 @@
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossorigin="anonymous"/>
-    <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Bar le BreaK</title>
 </head>
 <body class="container-fluid m-md-0 p-md-0">
@@ -41,7 +41,7 @@
             </defs>
         </svg>
     </header>
-    <nav class="d-none d-md-flex flex-column col-md-4 sticky-md-top vh-100 bg-dark bg-opacity-50">
+    <nav class="d-none d-md-flex flex-column col-md-3 sticky-md-top vh-100 bg-dark bg-opacity-50">
         <img class="logo_break m-md-2 w-50 align-self-center" src="pics/LogoBreak.png" alt="Logo du breakBar"/>
         <div class="menu m-md-2 w-100 align-self-center">
             <ul class="list-group">
@@ -50,12 +50,12 @@
             </ul>
         </div>
     </nav>
-    <main class="col-md-8">
+    <main class="col-md-9">
         <article class="card text-center m-2 bg-dark text-white">
             <h2 class="card-header card-title m-auto text_xtreem_fat">Nous découvrir</h2>
             <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet porttitor ligula. Mauris iaculis sit amet massa ut suscipit. Morbi id risus non erat sollicitudin porttitor id vitae dui. Praesent vestibulum velit sit amet ipsum finibus pharetra. Proin vehicula aliquet justo ut consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque hendrerit vitae nisi varius lobortis. Nam nisi libero, elementum ac volutpat quis, lobortis nec ligula. Cras turpis mi, mollis id ligula vitae, aliquet tristique purus. Maecenas ac elit magna. Donec dignissim libero purus, nec gravida nibh mollis a. Pellentesque eget risus quis d</p>
-                <a href="event.html" class="btn btn-primary">Voir Events</a>
+                <a href="pages/event.html" class="btn btn-primary">Voir Events</a>
             </div>
         </article>
         <aside>
@@ -73,7 +73,7 @@
                             src="/pics/BreakBarMaps.gif"
                          alt="Une maps qui indique la position du bar le BreaK depuis maison de la culture">
                     </div>
-                    <a href="event.html" class="btn btn-primary m-2">Ouvrir dans google maps</a>
+                    <a href="pages/event.html" class="btn btn-primary m-2">Ouvrir dans google maps</a>
                 </div>
             </section>
         </aside>
