@@ -56,9 +56,7 @@
                         <li>Addresse : 16 avenue marx dormoy</li>
                         <li>Depuis la station maison de la culture</li>
                     </ul>
-                    <img class="card-img w-75 align-self-center"
-                            src="/pics/breakBarMaps.gif"
-                         alt="Une maps qui indique la position du bar le BreaK depuis maison de la culture">
+                        <iframe class="align-self-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2193.0012458990404!2d3.0801527403144853!3d45.77058470577452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f71bc1aa6e61df%3A0x2a362700215bc1fd!2sLe%20BreaK!5e0!3m2!1sfr!2sfr!4v1647534606705!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <a href="#" class="btn my_bg_pink_lighter text-white m-2">Ouvrir dans google maps</a>
                 </div>
