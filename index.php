@@ -10,6 +10,7 @@
           crossorigin="anonymous"/>
     <link rel="stylesheet" href="styles/style.css" />
     <title>Bar le BreaK</title>
+    <meta name="description" content="Découvrez le bar associatif Le BreaK Bar sur clermont ferrand, ainsi qui la liste des prochains concerts" />
 </head>
 <body class="container-fluid m-md-0 p-md-0">
 <div class="row">
