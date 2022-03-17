@@ -20,7 +20,7 @@
                 alt="Un vynil en teinte de gris">
     </header>
     <nav class="d-none d-md-flex flex-column col-md-3 sticky-md-top vh-100 my_bg_black">
-        <img class="logo_break m-md-2 w-50 align-self-center" src="pics/logoBreakEmpty.png" alt="Logo du breakBar"/>
+        <a href="../index.php" class="align-self-center"><img class="logo_break m-md-2 w-100" src="../pics/logoBreakEmpty.png" alt="Logo du breakBar"/></a>
         <div class="menu m-md-2 align-self-center w-100">
             <ul class="list-group">
                 <li><a href="#" class="list-group-item my_bg_pink_lighter text-center text_xtreem_fat">Accueil</a></li>
