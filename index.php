@@ -32,7 +32,16 @@
         <section class="my_bg_black card text-center m-2 text-white 1">
             <h2 class="my_text_pink_break my_bg_black card-header card-title text_xtreem_fat">Nous découvrir</h2>
             <div class="card-body">
-                <p class="card-text opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet porttitor ligula. Mauris iaculis sit amet massa ut suscipit. Morbi id risus non erat sollicitudin porttitor id vitae dui. Praesent vestibulum velit sit amet ipsum finibus pharetra. Proin vehicula aliquet justo ut consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque hendrerit vitae nisi varius lobortis. Nam nisi libero, elementum ac volutpat quis, lobortis nec ligula. Cras turpis mi, mollis id ligula vitae, aliquet tristique purus. Maecenas ac elit magna. Donec dignissim libero purus, nec gravida nibh mollis a. Pellentesque eget risus quis d</p>
+                <p class="card-text opacity-75">🌐 Carrefour d'échanges culturel
+                    ☕ Bar/Café
+                    🍺 8 Bières Pressions
+                    🎶 Concerts/OpenMix's
+                    📌Affichage Associatif
+                    🎁 Happy Hour
+                    🎄 Décorations éphémères
+                    🔋 Chargeurs téléphone
+                    📶 Wifi Gratuit
+                    ♻️ Eco-responsable</p>
                 <a href="pages/event.html" class="btn my_bg_pink_lighter text-white">Voir Evenements</a>
             </div>
         </section>
@@ -44,11 +53,11 @@
                     <ul class="w-650 align-self-center opacity-75">
                         <li>Horraires : mardi-samedi 20h-1h00</li>
                         <li>Telephone : 0612345678</li>
-                        <li>Addresse : 12 avenue marx dormoy</li>
+                        <li>Addresse : 16 avenue marx dormoy</li>
                         <li>Depuis la station maison de la culture</li>
                     </ul>
                     <img class="card-img w-75 align-self-center"
-                            src="/pics/BreakBarMaps.gif"
+                            src="/pics/breakBarMaps.gif"
                          alt="Une maps qui indique la position du bar le BreaK depuis maison de la culture">
                     </div>
                     <a href="#" class="btn my_bg_pink_lighter text-white m-2">Ouvrir dans google maps</a>
