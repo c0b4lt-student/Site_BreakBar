@@ -20,7 +20,7 @@
                 alt="Un vynil en teinte de gris">
     </header>
     <nav class="d-none d-md-flex flex-column col-md-3 sticky-md-top vh-100 my_bg_black">
-        <img class="logo_break m-md-2 w-50 align-self-center" src="pics/logobreakempty.png" alt="Logo du breakBar"/>
+        <img class="logo_break m-md-2 w-50 align-self-center" src="pics/logoBreakEmpty.png" alt="Logo du breakBar"/>
         <div class="menu m-md-2 align-self-center w-100">
             <ul class="list-group">
                 <li><a href="#" class="list-group-item my_bg_pink_lighter text-center text_xtreem_fat">Accueil</a></li>
@@ -29,7 +29,7 @@
         </div>
     </nav>
     <main class="col-md-9">
-        <section class="my_bg_black card text-center m-2 text-white border-1 border-white">
+        <section class="my_bg_black card text-center m-2 text-white 1">
             <h2 class="my_text_pink_break my_bg_black card-header card-title text_xtreem_fat">Nous découvrir</h2>
             <div class="card-body">
                 <p class="card-text opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet porttitor ligula. Mauris iaculis sit amet massa ut suscipit. Morbi id risus non erat sollicitudin porttitor id vitae dui. Praesent vestibulum velit sit amet ipsum finibus pharetra. Proin vehicula aliquet justo ut consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque hendrerit vitae nisi varius lobortis. Nam nisi libero, elementum ac volutpat quis, lobortis nec ligula. Cras turpis mi, mollis id ligula vitae, aliquet tristique purus. Maecenas ac elit magna. Donec dignissim libero purus, nec gravida nibh mollis a. Pellentesque eget risus quis d</p>
@@ -37,7 +37,7 @@
             </div>
         </section>
         <aside>
-            <section class="my_bg_black card text-center m-2 text-white border-1 border-white">
+            <section class="my_bg_black card text-center m-2 text-white">
                 <h2 class="my_text_pink_break my_bg_black text_xtreem_fat card-header">Infos pratiques</h2>
                 <div class="card-body">
                     <div class="card-text d-flex flex-column">
