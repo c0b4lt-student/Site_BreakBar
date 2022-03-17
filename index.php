@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -15,22 +16,22 @@
     <header class="d-flex justify-content-around py-1 d-md-none">
         <img    src="pics/discBreakGray.png"
                 alt="Un vynil en teinte de gris">
-        <h1 class="my_text_pink_break align-self-center text_xtreem_fat"><a href="../index.php" class="text-reset text-decoration-none">Le BreaK</a></h1>
+        <h1 class="my-text-pink-break align-self-center text-xtreem-fat"><a href="../index.php" class="text-reset text-decoration-none">Le BreaK</a></h1>
         <img    src="pics/discBreakGray.png"
                 alt="Un vynil en teinte de gris">
     </header>
-    <nav class="d-none d-md-flex flex-column col-md-3 sticky-md-top vh-100 my_bg_black">
+    <nav class="d-none d-md-flex flex-column col-md-3 sticky-md-top vh-100 my-bg-black">
         <a href="../index.php" class="align-self-center"><img class="logo_break m-md-2 w-100" src="../pics/logoBreakEmpty.png" alt="Logo du breakBar"/></a>
         <div class="menu m-md-2 align-self-center w-100">
             <ul class="list-group">
-                <li><a href="#" class="list-group-item my_bg_pink_lighter text-center text_xtreem_fat">Accueil</a></li>
-                <li><a href="pages/event.html" class="list-group-item my_bg_pink text-center text_xtreem_medium">Evenements</a></li>
+                <li><a href="#" class="list-group-item my-bg-pink-lighter text-center text-xtreem-fat">Accueil</a></li>
+                <li><a href="pages/event.html" class="list-group-item my-bg-pink text-center text-xtreem-medium">Evenements</a></li>
             </ul>
         </div>
     </nav>
     <main class="col-md-9">
-        <section class="my_bg_black card text-center m-2 text-white 1">
-            <h2 class="my_text_pink_break my_bg_black card-header card-title text_xtreem_fat">Nous découvrir</h2>
+        <section class="my-bg-black card text-center m-2 text-white 1">
+            <h2 class="my-text-pink-break my-bg-black card-header card-title text-xtreem-fat">Nous découvrir</h2>
             <div class="card-body">
                 <p class="card-text opacity-75">🌐 Carrefour d'échanges culturel
                     ☕ Bar/Café
@@ -42,12 +43,12 @@
                     🔋 Chargeurs téléphone
                     📶 Wifi Gratuit
                     ♻️ Eco-responsable</p>
-                <a href="pages/event.html" class="btn my_bg_pink_lighter text-white">Voir Evenements</a>
+                <a href="pages/event.html" class="btn my-bg-pink-lighter text-white">Voir Evenements</a>
             </div>
         </section>
         <aside>
-            <section class="my_bg_black card text-center m-2 text-white">
-                <h2 class="my_text_pink_break my_bg_black text_xtreem_fat card-header">Infos pratiques</h2>
+            <section class="my-bg-black card text-center m-2 text-white">
+                <h2 class="my-text-pink-break my-bg-black text-xtreem-fat card-header">Infos pratiques</h2>
                 <div class="card-body">
                     <div class="card-text d-flex flex-column">
                     <ul class="w-650 align-self-center opacity-75">
@@ -58,7 +59,7 @@
                     </ul>
                         <iframe class="align-self-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2193.0012458990404!2d3.0801527403144853!3d45.77058470577452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f71bc1aa6e61df%3A0x2a362700215bc1fd!2sLe%20BreaK!5e0!3m2!1sfr!2sfr!4v1647534606705!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
-                    <a href="#" class="btn my_bg_pink_lighter text-white m-2">Ouvrir dans google maps</a>
+                    <a href="#" class="btn my-bg-pink-lighter text-white m-2">Ouvrir dans google maps</a>
                 </div>
             </section>
         </aside>

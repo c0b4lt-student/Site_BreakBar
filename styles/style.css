@@ -1,77 +1,76 @@
 @font-face {
-    font-family: 'Xtreem Medium Demo'; /*a name to be used later*/
-    src: url('../fonts/XtreemMedium_Demo.ttf'); /*URL to font*/
+  font-family: "Xtreem Medium Demo"; /* a name to be used later */
+  src: url("../fonts/XtreemMedium_Demo.ttf"); /* URL to font */
 }
 
 @font-face {
-    font-family: 'Xtreem Fat Demo'; /*a name to be used later*/
-    src: url('../fonts/XtreemFat_Demo.ttf'); /*URL to font*/
+  font-family: "Xtreem Fat Demo"; /* a name to be used later */
+  src: url("../fonts/XtreemFat_Demo.ttf"); /* URL to font */
 }
 
-.text_xtreem_medium {
-    font-family: "Xtreem Medium Demo", serif;
-    padding: 15px;
+.text-xtreem-medium {
+  font-family: "Xtreem Medium Demo", serif;
+  padding: 15px;
 }
 
-.text_xtreem_fat {
-    font-family: "Xtreem Fat Demo", serif;
-    padding: 15px;
+.text-xtreem-fat {
+  font-family: "Xtreem Fat Demo", serif;
+  padding: 15px;
 }
 
-.my_text_pink_break {
-    color: #ae489b;
+.my-text-pink-break {
+  color: #ae489b;
 }
 
-.my_text_pink_lighter {
-    color: #C86FB7;
+.my-text-pink-lighter {
+  color: #c86fb7;
 }
 
-.my_text_black {
-    color: black;
+.my-text-black {
+  color: black;
 }
 
-.my_bg_pink_lighter {
-    background-color: #C86FB7;
+.my-bg-pink-lighter {
+  background-color: #c86fb7;
 }
 
-.my_bg_pink {
-    background-color: #ae489b;
+.my-bg-pink {
+  background-color: #ae489b;
 }
 
-.my_bg_black {
-    background-color: rgba(0, 0, 0, 0.9);
+.my-bg-black {
+  background-color: rgb(0 0 0 / 90%);
 }
 
-.my_no_bg {
-    background-color: rgba(0, 0, 0, 0);
+.my-no-bg {
+  background-color: rgb(0 0 0 / 0%);
 }
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background: url(../pics/background.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("../pics/background.png") no-repeat center center fixed;
+  background-size: cover;
 }
 
-header, footer {
-    background-color: rgba(0, 0, 0, 0.58);
+header,
+footer {
+  background-color: rgb(0 0 0 / 58%);
 }
 
- .menu {
-     font-size: 28px;
- }
+.menu {
+  font-size: 28px;
+}
 
- @media screen and (min-width: 768px){
-     .event_pic {
-         max-width: 25%;
-         max-height: 100%;
-     }
-     .event_body {
-         width: 100%;
-     }
- }
+@media screen and (min-width: 768px) {
+  .event-pic {
+    max-width: 25%;
+    max-height: 100%;
+  }
+
+  .event-body {
+    width: 100%;
+  }
+}
