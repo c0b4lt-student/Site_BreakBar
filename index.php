@@ -15,7 +15,7 @@
     <header class="d-flex justify-content-around py-1 d-md-none">
         <img    src="pics/discBreakGray.png"
                 alt="Un vynil en teinte de gris">
-        <h1 class="my_text_pink_break align-self-center text_xtreem_fat">Le BreaK</h1>
+        <h1 class="my_text_pink_break align-self-center text_xtreem_fat"><a href="../index.php" class="text-reset text-decoration-none">Le BreaK</a></h1>
         <img    src="pics/discBreakGray.png"
                 alt="Un vynil en teinte de gris">
     </header>
@@ -23,25 +23,25 @@
         <img class="logo_break m-md-2 w-50 align-self-center" src="pics/logobreakempty.png" alt="Logo du breakBar"/>
         <div class="menu m-md-2 align-self-center w-100">
             <ul class="list-group">
-                <li><a href="#" class="list-group-item my_bg_pink_lighter text-center text_xtreem_medium">Accueil</a></li>
+                <li><a href="#" class="list-group-item my_bg_pink_lighter text-center text_xtreem_fat">Accueil</a></li>
                 <li><a href="pages/event.html" class="list-group-item my_bg_pink text-center text_xtreem_medium">Evenements</a></li>
             </ul>
         </div>
     </nav>
     <main class="col-md-9">
-        <article class="my_bg_black card text-center m-2 text-white border-1 border-white">
+        <section class="my_bg_black card text-center m-2 text-white border-1 border-white">
             <h2 class="my_text_pink_break my_bg_black card-header card-title text_xtreem_fat">Nous découvrir</h2>
             <div class="card-body">
                 <p class="card-text opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet porttitor ligula. Mauris iaculis sit amet massa ut suscipit. Morbi id risus non erat sollicitudin porttitor id vitae dui. Praesent vestibulum velit sit amet ipsum finibus pharetra. Proin vehicula aliquet justo ut consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque hendrerit vitae nisi varius lobortis. Nam nisi libero, elementum ac volutpat quis, lobortis nec ligula. Cras turpis mi, mollis id ligula vitae, aliquet tristique purus. Maecenas ac elit magna. Donec dignissim libero purus, nec gravida nibh mollis a. Pellentesque eget risus quis d</p>
                 <a href="pages/event.html" class="btn my_bg_pink_lighter text-white">Voir Evenements</a>
             </div>
-        </article>
+        </section>
         <aside>
             <section class="my_bg_black card text-center m-2 text-white border-1 border-white">
                 <h2 class="my_text_pink_break my_bg_black text_xtreem_fat card-header">Infos pratiques</h2>
                 <div class="card-body">
                     <div class="card-text d-flex flex-column">
-                    <ul class="w-75 align-self-center opacity-75">
+                    <ul class="w-650 align-self-center opacity-75">
                         <li>Horraires : mardi-samedi 20h-1h00</li>
                         <li>Telephone : 0612345678</li>
                         <li>Addresse : 12 avenue marx dormoy</li>
