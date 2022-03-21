@@ -12,7 +12,7 @@
     <title>Bar le BreaK</title>
     <meta name="description" content="Découvrez le bar associatif Le BreaK Bar sur clermont ferrand, ainsi qui la liste des prochains concerts" />
 </head>
-<body class="container-fluid m-md-0 p-md-0">
+<body class="container-fluid">
 <div class="row">
     <header class="d-flex justify-content-around py-1 d-md-none">
         <img    src="pics/discBreakGray.png"
